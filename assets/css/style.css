@@ -37,7 +37,7 @@ h1, h2 {
 }
 
 .vertical-height {
-    margin: 15px;
+    margin: 16px;
 }
 
 /* navigation tabs */
@@ -53,11 +53,12 @@ h1, h2 {
 
 #menu li {
     float: right;
-    margin-right: 10px;
-    border: 1px solid #595E5E;
+    margin-right: 8px;
     list-style-type: none;
     position: relative;
-    top: 16px;
+    top: 18px;
+    background-color: #595E5E;
+    color: #E9E91C;
 }
 
 #menu a {
@@ -69,6 +70,10 @@ h1, h2 {
 }
 
 #menu a:hover {
-    background-color: #595E5E;
-    color: #E9E91C;
+    color: white;
+    border-color: white;
+}
+
+.active {
+    color: white;
 }
