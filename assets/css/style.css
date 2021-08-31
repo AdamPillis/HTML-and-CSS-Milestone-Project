@@ -20,4 +20,28 @@ h1, h2 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #E9E91C;
+    
+
+}
+
+#heading {
+    margin-top: 20px;
+    font-size: 250%;
+}
+
+/* navigation tabs */
+
+#menu {
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+#menu, #heading {
+    line-height: 70px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
 }
