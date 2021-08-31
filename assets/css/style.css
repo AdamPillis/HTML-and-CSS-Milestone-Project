@@ -93,3 +93,13 @@ h1, h2 {
     width: 100%;
     background: url('/assets/images/Main-Image.jpg') no-repeat center center;
 }
+
+#image-text {
+    height: 150px;
+    width: 250px;
+
+    background-color: rgba(0, 0, 0, .6);
+
+    position: absolute;
+
+}
