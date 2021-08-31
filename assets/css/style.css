@@ -38,10 +38,11 @@ h1, h2 {
 
 #menu, #heading {
     line-height: 70px;
+    
 }
 
 #menu li {
     float: right;
     margin-right: 30px;
-    margin-top: 20px;
+    
 }
