@@ -36,7 +36,7 @@ h2 {
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #595E5E;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #heading {
@@ -158,9 +158,10 @@ h2 {
 }
 
 #reasons-heading {
-    width: 100%;
+    width: 80%;
     height: 40px;
     padding-top: 15px;
+    margin-left: 10px;
 }
 
 .reasons-box {
@@ -205,4 +206,10 @@ h2 {
 #wild-box {
     width: 100%;
     height: 500px;
+}
+
+#wild-header {
+    color: #459ce4;
+    width: 80%;
+    margin-left: 10px;
 }
