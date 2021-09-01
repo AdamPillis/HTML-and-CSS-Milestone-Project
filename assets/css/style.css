@@ -161,3 +161,15 @@ h2 {
     height: 40px;
     padding: 10px;
 }
+
+.reasons-box {
+    width: 50%;
+    height: 440px;
+    float: left;
+}
+
+.images-box {
+    width: 50%;
+    height: 440px;
+    float: right;
+}
