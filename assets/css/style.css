@@ -211,5 +211,19 @@ h2 {
 #wild-header {
     color: #459ce4;
     width: 80%;
+    height: 50px;
     margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.wild-text-box {
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+.wild-video-box {
+    width: 50%;
+    height: 450px;
+    float: right;
 }
