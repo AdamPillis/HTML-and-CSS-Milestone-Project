@@ -80,7 +80,7 @@ h1, h2 {
 }
 
 .active {
-    color: white;
+    border-bottom: 1px solid #595E5E;
 }
 
 /* header image */
@@ -111,22 +111,36 @@ h1, h2 {
     left: 65%;
 
     padding-top: 15px;
-
 }
 
 #image-text p {
     color: white;
     font-size: 150%;
     text-align: center;
-    font-weight: 800;
+    font-weight: 1000;
+    line-height: 40px;
 }
+
+/* Button and link within image */
 
 #image-link {
-    border: 2px solid white;
     position: inherit;
-    left: 10vw;
+
+    border: 1px solid #595E5E;
+    background-color: #E9E91C;
+
+    left: 28%;
+    top: 70%;   
 }
 
-.image-text {
+#image-link a {
     text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+}
+
+#image-link a:hover {
+    background-color: #595E5E;
+    overflow: auto;
 }
