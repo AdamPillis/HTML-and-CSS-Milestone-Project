@@ -163,13 +163,18 @@ h2 {
 }
 
 .reasons-box {
-    width: 50%;
+    width: 40%;
     height: 440px;
     float: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    line-height: 30px;
 }
 
 .images-box {
     width: 50%;
     height: 440px;
     float: right;
+    padding-right: 50px;
+    padding-top: 30px;
 }
