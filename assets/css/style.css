@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
 /* Default styling */
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Raleway, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #595E5E;
 }
@@ -21,8 +21,13 @@ header {
     background-color: white;
     overflow: hidden;
 }
+
+h1 {
+    font-size: 250%;
+}
+
 h1, h2 {
-    font-family: Hina+Mincho, sans-serif;
+    font-family: Raleway, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #E9E91C;
@@ -33,11 +38,11 @@ h1, h2 {
     height: 80px;
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 20%;
 }
 
 .vertical-height {
-    margin: 16px;
+    margin: 30px;
 }
 
 /* navigation tabs */
