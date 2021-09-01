@@ -212,14 +212,14 @@ h2 {
     color: #459ce4;
     width: 80%;
     height: 50px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 15px;
 }
 
 .wild-text-box {
     width: 50%;
     height: 450px;
     float: left;
+    margin-top: 10px;
 }
 
 .wild-video-box {
@@ -230,6 +230,6 @@ h2 {
 
 #wild-box .wild-text-box .wild-text {
     line-height: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 18px;
 }
