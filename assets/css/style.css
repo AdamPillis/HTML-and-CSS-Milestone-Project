@@ -227,3 +227,14 @@ h2 {
     height: 450px;
     float: right;
 }
+
+#wild-box .wild-text-box .wild-text {
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.video-box {
+    width: 650px;
+    height: 400px;
+}
