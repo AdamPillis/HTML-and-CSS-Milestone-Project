@@ -24,13 +24,18 @@ header {
 
 h1 {
     font-size: 250%;
-}
-
-h1, h2 {
     font-family: Raleway, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #E9E91C;
+}
+ 
+h2 {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #595E5E;
+    font-size: 200%;
 }
 
 #heading {
