@@ -241,3 +241,11 @@ h2 {
     margin-left: 40px;
     margin-top: 40px;
 }
+
+/* About us and sign up section */
+
+#about-box {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+}
