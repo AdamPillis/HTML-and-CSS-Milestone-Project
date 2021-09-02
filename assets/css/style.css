@@ -288,19 +288,47 @@ h2 {
 
 /* Buttons styling */
 
-#about-box button {
+#about-box .button-one {
     border: 4px solid #595E5E;
     background-color: #E9E91C;
 
     width: 30%;
     height: 40px;
 
+    position: relative;
+    left: 170px;
+    top: 20px;
 }
 
-.inspire-button, .signup-button {
+.button-one .inspire-button {
     text-align: center;
     text-decoration: none;
     font-size: 150%;
     color: #595E5E;
-    padding: 2px 4px;
+    padding: 8px 17px 8px 17px;
+}
+
+#about-box .button-two {
+    border: 4px solid #595E5E;
+    background-color: #E9E91C;
+
+    width: 30%;
+    height: 40px;
+
+    position: relative;
+    left: 170px;
+    top: 30px;
+}
+
+.signup-button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 130%;
+    color: #595E5E;
+    padding: 6px 26px 6px 26px;
+}
+
+.inspire-button:hover, .signup-button:hover {
+    background-color: #595E5E;
+    color: white;
 }
