@@ -247,10 +247,21 @@ h2 {
 #about-box {
     height: 300px;
     width: 100%;
-    margin-top: 10px;
+    /* Link to background image >> https://www.pexels.com/photo/landscape-playing-grass-lawn-6572968/ */
     background-image: url(/assets/images/pexels-kindel-media-6573247.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
+}
+
+#about-box div {
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 20px 0 0 10px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border: 2px solid white;
 }
