@@ -339,21 +339,26 @@ footer {
     background-color: rgb(56, 56, 56);
 }
 
+#footer-wild-icon {
+    color: #459ce4;
+    font-size: 400%;
+    margin-right: 10%;
+}
 .footer-icons {
     text-align: center;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .footer-text {
     color: white;
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 70px;
     margin-top: 20px;
 }
 
 .footer-icons li {
     display: inline;
-    margin-right: 90px;
+    margin-right: 15%;
 }
 
 .footer-icons i {
