@@ -9,7 +9,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #595E5E;
     width: 100%;
 }
@@ -46,10 +46,21 @@ h1 {
  
 h2 {
     font-family: Raleway, sans-serif;
+    width: 100%;
+    height: 40px;
+    color: #459ce4;
+    font-size: 280%;
+    margin: 15px;
+    padding: 5px;
+}
+
+h3 {
+    font-family: Raleway, sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #595E5E;
     font-size: 120%;
+    padding-left: 20%;
 }
 
 #heading {
@@ -57,16 +68,6 @@ h2 {
     height: 80px;
     float: right;
     box-sizing: border-box;
-}
-
-#heading .header-h2 {
-    font-family: Raleway, sans-serif;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    color: #595E5E;
-    font-size: 120%;
-    padding-left: 20%;
-    padding-top: 5px;
 }
 
 #nav-box {
@@ -183,12 +184,6 @@ h2 {
 }
 
 #reasons-heading {
-    width: 100%;
-    height: 40px;
-    padding: 5px;
-    margin: 30px;
-    color: #459ce4;
-    font-size: 250%;
     text-align: left;
 }
 
@@ -203,7 +198,7 @@ h2 {
 }
 
 .reasons-box li {
-    font-size: 22px;
+    font-size: 120%;
 }
 
 /* Images beside reasons */
@@ -229,42 +224,38 @@ h2 {
 
 #wild-box {
     width: 100%;
-    height: 500px;
-}
-
-.wild-box {
-    width: 100%;
-    height: 50px;
+    height: 600px;
+    margin: 15px;
+    padding: 5px;
 }
 
 #wild-header {
     color: #459ce4;
-    text-align: right;
-    margin-right: 180px;
-    margin-top: 60px;
+    margin: 15px;
+    padding: 5px;
 }
 
 .wild-text-box {
     width: 50%;
-    height: 450px;
+    height: 460px;
     float: right;
-    margin-top: 40px;
-    padding-right: 10px;
+    box-sizing: border-box;
+    padding: 5px;   
 }
 
-#wild-box .wild-text-box .wild-text {
-    line-height: 50px;
-    margin-left: 20px;
-    font-size: 20px;
-    margin-top: 20px;
+.wild-text-box .wild-text {
+    line-height: 60px;
+    font-size: 140%;
+    padding-right: 40px;
 }
 
 .wild-video-box {
-    width: 40%;
+    width: 700px;
     height: 450px;
     float: left;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin: 15px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 /* About us and sign up section */
