@@ -369,7 +369,12 @@ footer {
 /* Course.html main body structure */
 
 #course-area {
-    height: 2000px;
+    height: 2040px;
     width: 100%;
-    background-color: green;
+}
+
+#course-area .course-section {
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
 }
