@@ -36,20 +36,25 @@ h2 {
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #595E5E;
-    font-size: 250%;
+    font-size: 120%;
+    padding: 5px;
 }
 
-#heading {
-    width: 100%;
+#heading-logo {
+    width: 20%;
+    height: 100%
+}
+
+#heading-one {
+    width: 80%;
     height: 80px;
     text-align: center;
-    position: relative;
-    top: 20%;
 }
 
-.vertical-height {
-    margin: 30px;
-    font-size: 150%;
+#heading-two {
+    width: 80%;
+    height: 40px;
+    text-align: center;
 }
 
 /* navigation tabs */
@@ -65,12 +70,13 @@ h2 {
 
 #menu li {
     float: right;
-    margin-right: 10px;
+    margin-right: 5px;
     list-style-type: none;
     position: relative;
     top: 15px;
     color: white;
     background-color: #E9E91C;   
+    padding: 2px;
 }
 
 #menu a {
@@ -78,7 +84,7 @@ h2 {
     font-size: 18px;
     text-decoration: none;
     color: inherit;
-    
+    padding: 1px;
 }
 
 #menu a:hover {
@@ -351,7 +357,7 @@ footer {
     color: white;
     font-size: 20px;
     margin-right: 70px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .footer-icons li {
@@ -362,6 +368,7 @@ footer {
 .footer-icons i {
     font-size: 250%;
     color: white;
+    margin-top: 10px;
 }
 
 /* Course.html main body structure */
