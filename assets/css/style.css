@@ -248,8 +248,7 @@ h2 {
 #about-box {
     height: 300px;
     width: 100%;
-    /* Link to background image >> https://www.pexels.com/photo/landscape-playing-grass-lawn-6572968/ */
-    background-image: url(/assets/images/pexels-kindel-media-6573247.jpg);
+    background-image: url(/assets/images/pexels-aboutus-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
