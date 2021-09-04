@@ -176,7 +176,7 @@ h3 {
 
 #reasons {
     width: 100%;
-    height: 650px;
+    height: 630px;
 }
 
 #reasons-heading {
@@ -236,11 +236,12 @@ h3 {
     height: 500px;
     float: right;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 .wild-text-box .wild-text {
-    line-height: 60px;
-    font-size: 18px;
+    line-height: 70px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -249,6 +250,7 @@ h3 {
     height: 500px;
     float: left;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 /* About us and sign up section */
@@ -261,6 +263,7 @@ h3 {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    margin-bottom: 70px;
 }
 
 #about-box div {
@@ -342,37 +345,42 @@ h3 {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 45px;
     width: 100%;
     background-color: rgb(56, 56, 56);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
 }
 
-#footer-wild-icon {
-    color: #459ce4;
-    font-size: 400%;
-    margin-right: 10%;
-}
 .footer-icons {
     text-align: center;
-    padding-top: 1%;
+    height: 45px;
+    width: 100%;
 }
 
-.footer-text {
+.footer-icons span{
+    font-size: 16px;
     color: white;
-    font-size: 20px;
-    margin-right: 70px;
-    margin-top: 30px;
+    margin: 40px;
+    padding: 2px;
+
 }
 
 .footer-icons li {
     display: inline;
-    margin-right: 15%;
+    margin-right: 250px;
 }
 
 .footer-icons i {
     font-size: 250%;
     color: white;
-    margin-top: 10px;
+    padding-top: 2px;
+}
+
+.footer-icons li i:hover {
+    border-bottom: 2px solid white;
 }
 
 /* Course.html main body structure */
@@ -412,8 +420,4 @@ footer {
     background-color: black;
     float: right;
     box-sizing: border-box;
-}
-
-.footer-icons li i:hover {
-    border-bottom: 2px solid white;
 }
