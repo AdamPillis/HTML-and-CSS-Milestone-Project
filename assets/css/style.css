@@ -4,7 +4,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -151,25 +151,23 @@ h3 {
 
 /* Button and link within image */
 
-#image-link {
-    position: inherit;
+#image-button {
+    position: absolute;
+    left: 30%;
 
     border: 4px solid #595E5E;
     background-color: #E9E91C;
 
-    left: 120px; 
-    top: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-#image-link a {
-    text-align: center;
+#image-button a {
     text-decoration: none;
-    font-size: 150%;
-    color: #595E5E;
-    padding: 2px 4px;
 }
 
-#image-link a:hover {
+#image-button a:hover {
     background-color: #595E5E;
     color: white;
 }
