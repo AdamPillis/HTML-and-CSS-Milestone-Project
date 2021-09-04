@@ -47,7 +47,7 @@ h1 {
 h2 {
     font-family: Raleway, sans-serif;
     width: 100%;
-    height: 40px;
+    height: 50px;
     color: #459ce4;
     font-size: 280%;
     margin-top: 15px;
@@ -185,7 +185,6 @@ h3 {
 
 #reasons-heading {
     text-align: left;
-    padding-left: 20px;
 }
 
 #reasons .reasons-box {
@@ -228,22 +227,19 @@ h3 {
     width: 100%;
     height: 600px;
     margin-top: 15px;
-    margin-left: 15px;
 }
 
 #wild-header {
     color: #459ce4;
     position: relative;
-    left: 55%;
     bottom: 5%;
 }
 
 .wild-text-box {
-    width: 40%;
-    height: 460px;
+    width: 50%;
+    height: 500px;
     float: right;
     box-sizing: border-box;
-    padding-right: 140px;
 }
 
 .wild-text-box .wild-text {
@@ -254,7 +250,7 @@ h3 {
 
 .wild-video-box {
     width: 50%;
-    height: 450px;
+    height: 500px;
     float: left;
     box-sizing: border-box;
 }
