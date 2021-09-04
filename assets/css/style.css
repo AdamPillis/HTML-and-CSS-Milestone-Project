@@ -50,8 +50,8 @@ h2 {
     height: 50px;
     color: #459ce4;
     font-size: 280%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 30px 0 30px;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -176,27 +176,27 @@ h3 {
 
 #reasons {
     width: 100%;
-    height: 600px;
-    margin: 15 0 15px 0;
-    padding: 5px 0 15px 0;
+    height: 650px;
 }
 
 #reasons-heading {
     text-align: left;
+    padding-left: 50px;
 }
 
-#reasons .reasons-box {
-    width: 40%;
-    height: 440px;
+.reasons-box {
+    width: 50%;
+    height: 500px;
     float: left;
-    line-height: 60px;
-    margin-left: 30px;
-    margin-top: 20px;
+    box-sizing: border-box;
 }
 
-.reasons-box li {
-    font-size: 100%;
+.reasons-box ul {
+    text-transform: capitalize;
+    padding-left: 70px;
+    font-size: 120%;
     letter-spacing: 2px;
+    line-height: 60px;
 }
 
 /* Images beside reasons */
@@ -205,18 +205,12 @@ h3 {
     width: 50%;
     height: 500px;
     float: right; 
-    margin-top: 20px;
-    padding-right: 50px;
 }
 
-.sand-dunes {
+.sand-dunes, .aerial-view {
     width: 100%;
     height: 50%;
-}
-
-.aerial-view {
-    width: 100%;
-    height: 220px;
+    padding-right: 20px;
 }
 
 /* Wild Atlantic Way section design */
@@ -224,13 +218,17 @@ h3 {
 #wild-box {
     width: 100%;
     height: 600px;
-    margin-top: 15px;
 }
 
 #wild-header {
-    color: #459ce4;
-    position: relative;
-    bottom: 5%;
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+}
+
+#wild-header h2 {
+    text-align: right;
+    padding-right: 120px;
 }
 
 .wild-text-box {
