@@ -493,14 +493,33 @@ footer {
     overflow: hidden;
 }
 #form-box {
-    width: 400px;
+    max-width: 400px;
     height: 400px;
 
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgba(128, 125, 125, 0.4);
 
     position: absolute;
     bottom: 20%;
     left: 35%;
+}
+
+#form-header {
+    font-size: 160%;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 90px;
+}
+.text-input {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 30px;
+    margin: 5px 0 15px;
+    display: block;
+
 }
 #form-footer-icons {
     padding-left: 8%;
