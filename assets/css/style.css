@@ -90,21 +90,23 @@ header {
     display: inline;
     position: relative;
     float: right;
-    padding-right: 30px;
-    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-right: 1px solid #595E5E;
 }
 
 #menu a {
     text-transform: uppercase;
     font-size: 20px;
     text-decoration: none;
-    color: inherit;
-    letter-spacing: 2px;
-    padding: 2px;
+    color: #d4af47;
+    letter-spacing: 1px;
 }
 
 #menu a:hover {
     background-color: #595E5E;
+    color: white;
 }
 
 .active {
@@ -183,6 +185,7 @@ header {
 #reasons-heading {
     text-align: left;
     padding-left: 50px;
+    color: #d4af47;
 }
 
 .reasons-box {
@@ -387,7 +390,9 @@ footer {
     border-bottom: 2px solid white;
 }
 
-/* Course.html main body structure */
+/* Course.html */
+
+/* Layout for every course */
 
 #course-section {
     height: 2500px;
@@ -395,19 +400,33 @@ footer {
     margin-top: 150px;
 }
 
-.course-one {
+.course-area {
     height: 550px;
     width: 100%;
+    margin-top: 5%;
 }
 
 .course-heading {
     padding-left: 15px;
-    font-size: 28px;
+    font-size: 30px;
     color: #d4af47;
     font-weight: 900;
     text-align: center;
 }
+
+.course-text-quote {
+    height: 550px;
+    width: 50%;
+    float: left;
+    margin-top: 25px;
+}
+
 .course-text {
+    height: 350px;
+    width: 100%;
+}
+
+.course-p {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 35px;
@@ -416,19 +435,7 @@ footer {
     text-align: center;
 }
 
-.course-text-quote-one {
-    height: 550px;
-    width: 50%;
-    float: left;
-    margin-top: 25px;
-}
-
-.course-text-one {
-    height: 350px;
-    width: 100%;
-}
-
-.course-quote-one {
+.course-quote {
     height: 150px;
     width: 100%;
     font-size: 25px;
@@ -438,15 +445,26 @@ footer {
 }
 
 .course-image-container {
-    height: 500px;
+    height: 550px;
     width: 50%;
     float: right;
 }
 
-.course-image-one {
+.course-image {
     width: 100%;
     height: 100%;
     padding: 20px;
-    border-radius: 5%;
+    border-radius: 8%;
     margin-top: 20px;
 }
+
+/* Special layout for every second course */
+
+.doonbeg-waterville-text {
+    float: right;
+}
+
+.doonbeg-waterville-image {
+    float: right;
+}
+
