@@ -12,6 +12,7 @@ body {
     font-weight: 500;
     color: #595E5E;
     width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -472,6 +473,39 @@ footer {
     top: 20%;
     padding: 10px;
 }
+
+/* Form.html structure */
+
+#form-header {
+    width: 100%;
+    height: 50px;
+}
+
+#form-image {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -45px;
+}
+
+#form-image img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#form-box {
+    width: 400px;
+    height: 400px;
+
+    background-color: rgb(255, 255, 255, 0.4);
+
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+}
+#form-footer-icons {
+    padding-left: 8%;
+}
+
 
 
 
