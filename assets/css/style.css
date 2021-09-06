@@ -44,6 +44,27 @@ h3 {
     text-align: center;
 }
 
+.button {
+    border: 2px solid #d4af47;
+    background-color: #595E5E;
+    border-radius: 10px;
+    
+    color: #d4af47;
+    font-size: 16px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+
+    margin: 2px 4px;
+    padding: 2px;
+}
+
+.button:hover {
+    background-color: #d4af47;
+    color: white;
+}
+
 /* heading and logo */
 
 header {
@@ -156,22 +177,14 @@ header {
 
 #image-button {
     position: absolute;
-    left: 30%;
-
-    border: 4px solid #595E5E;
-    background-color: #E9E91C;
-
-    height: 40px;
-    font-size: 16px;
-    font-weight: 600;
+    left: 28%;
+    
+    width: 200px;
+    height: 50px;
 }
 
-#image-button a {
-    text-decoration: none;
-}
-
-#image-button a:hover {
-    background-color: #595E5E;
+#image-button:hover {
+    background-color: #d4af47;
     color: white;
 }
 
@@ -215,6 +228,7 @@ header {
     width: 100%;
     height: 50%;
     padding-right: 20px;
+    padding-top: 15px;
 }
 
 /* Wild Atlantic Way section design */
@@ -303,50 +317,26 @@ header {
 
 /* Buttons styling */
 
-#about-box .button-one {
-    border: 4px solid #595E5E;
-    background-color: #E9E91C;
-
-    width: 30%;
-    height: 40px;
+#about-box #inspire-button {
+    padding: 8px;
+    width: 110%;
+    height: 110%;
 
     position: relative;
-    left: 170px;
-    top: 20px;
+    left: 35%;
+    top: 8%;
 }
 
-.button-one .inspire-button {
-    text-align: center;
-    text-decoration: none;
-    font-size: 150%;
-    color: #595E5E;
-    padding: 8px 17px 8px 17px;
-}
-
-#about-box .button-two {
-    border: 4px solid #595E5E;
-    background-color: #E9E91C;
-
-    width: 30%;
-    height: 40px;
+#about-box #signup-button {
+    padding: 8px;
+    width: 110%;
+    height: 110%;
 
     position: relative;
-    left: 170px;
-    top: 40px;
+    left: 35%;
+    top: 12%;
 }
 
-.signup-button {
-    text-align: center;
-    text-decoration: none;
-    font-size: 130%;
-    color: #595E5E;
-    padding: 6px 26px 7px 26px;
-}
-
-.inspire-button:hover, .signup-button:hover {
-    background-color: #595E5E;
-    color: white;
-}
 
 /* Footer */
 
