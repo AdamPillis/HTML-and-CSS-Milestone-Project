@@ -385,7 +385,7 @@ footer {
 /* Layout for every course */
 
 #course-section {
-    height: 2500px;
+    height: 2550px;
     width: 100%;
     margin-top: 150px;
 }
@@ -457,4 +457,21 @@ footer {
 .doonbeg-waterville-image {
     float: right;
 }
+
+/* Button at the bottom of course.html */
+
+#course-button {
+    width: 100%;
+    height: 40px;
+    margin: 40px 0;
+}
+
+#course-button a {
+    position: relative;
+    left: 45%;
+    top: 20%;
+    padding: 10px;
+}
+
+
 
