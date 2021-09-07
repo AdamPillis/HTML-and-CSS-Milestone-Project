@@ -43,6 +43,7 @@ h3 {
     color: #595E5E;
     font-size: 22px;
     text-align: center;
+    padding: 3px 0;
 }
 
 .button {
@@ -102,7 +103,7 @@ header {
 /* navigation section */
 
 #nav-area {
-    height: 50px;
+    height: 40px;
     width: 100%;
     clear: both;
 }
@@ -135,10 +136,10 @@ header {
     border-bottom: 1px solid #595E5E;
 }
 
-/* header image */
+/* image under header */
 
 #main-image-area {
-    height: 589px;
+    height: 600px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -146,13 +147,13 @@ header {
 }
 
 #main-image {
-    height: 589px;
+    height: 600px;
     width: 100%;
     margin-top: 150px;
 }
 
 #image-text {
-    height: 250px;
+    height: 300px;
     width: 450px;
 
     background-color: rgb(255, 255, 255, 0.4);
@@ -169,9 +170,10 @@ header {
     color: white;
     font-size: 150%;
     text-align: center;
+    text-transform: capitalize;
     font-weight: 1000;
     line-height: 40px;
-    padding: 5px 3px;
+    padding: 5px 2px;
 }
 
 /* Button and link within image */
@@ -386,7 +388,7 @@ footer {
 /* Layout for every course */
 
 #course-section {
-    height: 2550px;
+    height: 2400px;
     width: 100%;
     margin-top: 150px;
 }
@@ -423,6 +425,7 @@ footer {
     line-height: 35px;
     padding-left: 10px;
     padding-top: 20px;
+    padding-right: 5px;
     text-align: center;
 }
 
@@ -433,6 +436,7 @@ footer {
     text-align: center;
     color: #595E5E;
     padding-top: 15px;
+    line-height: 35px;
 }
 
 .course-image-container {
@@ -458,19 +462,32 @@ footer {
 .doonbeg-waterville-image {
     float: right;
 }
+#doonbeg-quote {
+    margin-top: 20px;
+}
+#ballybunion-quote {
+    height: 120px;
+    margin-top: 30px;
+}
+
+#waterville-quote {
+    height: 100px;
+    margin-top: 50px;
+    padding: 0;
+}
 
 /* Button at the bottom of course.html */
 
 #course-button {
     width: 100%;
     height: 40px;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 #course-button a {
     position: relative;
     left: 45%;
-    top: 20%;
+    top: 150%;
     padding: 10px;
 }
 
@@ -533,10 +550,7 @@ label {
 ::placeholder {
     color: rgb(255, 255, 255, 0.6);
 }
-#form-footer-icons {
-    padding-left: 9%;
-}
-
+/* form buttons */
 #signup-button, #cancel-button {
     height: 30px;
     width: 140px;
@@ -574,6 +588,10 @@ label {
 #signup-button:hover, #form-box a:hover {
     background-color: white;
     color: rgba(19, 17, 17, 0.6);
+}
+/* form footer */
+#form-footer-icons {
+    padding-left: 9%;
 }
 
 
