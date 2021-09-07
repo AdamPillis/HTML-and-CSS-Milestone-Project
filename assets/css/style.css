@@ -497,11 +497,15 @@ footer {
     max-width: 400px;
     height: 400px;
 
-    background-color: rgba(128, 125, 125, 0.4);
+    background-color: rgba(19, 17, 17, 0.6);
 
     position: absolute;
     bottom: 20%;
     left: 35%;
+}
+
+#form-box legend {
+    color: white;
 }
 
 #form-header {
@@ -524,8 +528,12 @@ label {
     border-radius: 8px;
     height: 25px;
     margin: 5px 0 15px 38px;
+    padding-left: 6px;
     display: block;
     width: 80%;
+}
+::placeholder {
+    color: rgb(255, 255, 255, 0.6);
 }
 #form-footer-icons {
     padding-left: 9%;
