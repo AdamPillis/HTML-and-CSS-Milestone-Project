@@ -372,17 +372,11 @@ footer {
     width: 100%;
 }
 
-.footer-icons span{
-    font-size: 16px;
-    color: white;
-    margin: 40px;
-    padding: 2px;
-
-}
-
 .footer-icons li {
     display: inline;
     margin-right: 250px;
+    position: relative;
+    left: 6%;
 }
 
 .footer-icons i {
