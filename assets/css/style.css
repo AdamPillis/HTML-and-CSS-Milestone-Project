@@ -499,16 +499,18 @@ footer {
     height: 100vh;
     width: 100%;
     margin-bottom: -45px;
-}
-
-#form-image img {
-    height: inherit;
     overflow: hidden;
-    width: 100%;
+    position: relative;
 }
-
+#form-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
 #form-box {
-    max-width: 400px;
+    width: 400px;
     height: 400px;
 
     background-color: rgba(19, 17, 17, 0.8);
@@ -517,7 +519,7 @@ footer {
 
     position: absolute;
     bottom: 20%;
-    left: 35%;
+    left: 38%;
 }
 
 #form-heading {
@@ -669,6 +671,9 @@ label {
     .footer-icons li {
           margin-right: 150px;
     }
+    .signup-area #form-box {
+        left: 35%;
+    }
 }
 /* For screen size 950px wide and smaller */
 @media screen and (max-width: 950px)
@@ -788,6 +793,9 @@ label {
         #course-button #bottom-button {
             left: 38%;
         }
+        .signup-area #form-box {
+            left: 30%;
+        }
     }
 /* For screen size 800px wide and smaller */
 @media screen and (max-width: 800px)
@@ -903,6 +911,9 @@ label {
             left: 0;
             right: 0;
         }
+        .signup-area #form-box {
+            left: 30%;
+        }
 
         /* medie queries for course.html @800px and below */
         .course-text .course-p {
@@ -922,10 +933,22 @@ label {
             font-size: 14px;
         }
         .footer-icons li {
-            margin-right: 100px;
+            margin-right: 70px;
         }
         /* media queries for form.html */
-        
+        .signup-area #form-box {
+            left: 20%;
+            width: 320px;
+        }
+        #form-heading {
+            font-size: 150%;
+        }
+        #signup-button {
+            left: 4%;
+        }
+        #cancel-button {
+            left: 165px;
+        }
         /* For screen size 400px wide and smaller */
 @media screen and (max-width: 400px)
         /* index.html */ {
@@ -991,6 +1014,13 @@ label {
         }
         #course-button #bottom-button {
             left: 24%;
+        }
+        .footer-icons li {
+            left: 3%;
+        }
+        /* form.html @400px */
+        .signup-area #form-box {
+            left: 10%;
         }
         }
 
