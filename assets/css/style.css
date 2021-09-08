@@ -145,9 +145,8 @@ header {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 #main-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
     margin-top: 150px;
 /* zoom in style for main image */
@@ -807,6 +806,9 @@ label {
             top: 65%;
             left: 5%;
         }
+        #main-image {
+            margin-top: 120px;
+        }
         #image-text p{
             font-size: 15px;
             line-height: 35px;
@@ -819,7 +821,174 @@ label {
             bottom: 5%;
             left: 32%;
         }
-    }
+        #reasons {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+        #reasons-heading {
+            font-size: 180%;
+            border-bottom: -15px;
+        }
+        .reasons-box {
+            height: 100%;
+            width: 100%;
+        }
+        .reasons-box li {
+        font-size: 12px;
+        }
+        .images-box {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .sand-dunes {
+            display: none;
+        }
+        .aerial-view {
+            width: 80%;
+            height: 60%;
+            margin: 0 10% 5% 10%;
+            padding-left: 30px;
+            border-radius: 10%;
+        }
+        #wild-header {
+            height: 50px;
+            width: 100%;
+        }
+        #wild-header h2 {
+            text-align: center;
+            width: 100%;
+            font-size: 200%;
+        }
+        .wild-text-box {
+            height: 330px;
+            width: 100%;
+            margin-top: 50px;
+            padding: 0 10px;
+        }
+        .wild-text-box .wild-text {
+            padding: 0 15px;
+            font-size: 75%;
+            line-height: 35px;
+        }
+        .wild-video-box {
+            height: 350px;
+            width: 100%;
+            padding: 0;
+            margin: 30px 0;
+        }
+        .wild-video-box iframe {
+            width: 90%;
+            height: 100%;
+            margin: 5%;
+            position: relative;
+            bottom: 50px;
+        }
+        #about-area {
+            height: 250px;
+            width: 100%;
+            position: relative;
+        }
+        .about-boxes {
+            height: 250px;
+            width: 100%;
+            position: absolute;
+            
+        }
+        .about-box {
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        /* medie queries for course.html @800px and below */
+        .course-text .course-p {
+            font-size: 70%;
+            line-height: 35px;
+        }
+        .course-image-container {
+            height: 100%;
+            width: 100%;
+        }
+        .course-image-container .course-image {
+            height: 300px;
+            width: 80%;
+            margin: 0 10%;
+        }
+        .course-quote p {
+            font-size: 14px;
+        }
+        .footer-icons li {
+            margin-right: 100px;
+        }
+        /* media queries for form.html */
+        
+        /* For screen size 400px wide and smaller */
+@media screen and (max-width: 400px)
+        /* index.html */ {
+        #heading-logo {
+            display: none;
+        }
+        header {
+            padding-right: 15px;
+        }
+        #main-image-area {
+            height: 300px;
+            
+        }
+        #main-image {
+            height: 200px;
+            width: 100%;
+            margin-bottom: 150px;
+            
+        }
+        #main-image img {
+            height: 200px;
+            width: 100%;
+            margin-bottom: 150px;
+           
+        }
+        #image-text {
+            display: none;
+        }
+        #reasons #reasons-heading {
+            padding-left: 8px;
+        }
+        .reasons-box li {
+            line-height: 30px;
+            font-size: 90%;
+        }
+        .images-box .aerial-view {
+            padding: 0;
+        }
+        #wild-box #wild-header h2 {
+            text-align: center;
+        }
+        .footer-icons li {
+            margin-right: 50px;
+        }
+        /* media queries @400px and down for course.html */
+        .course-image-container .course-image {
+            height: 300px;
+            width: 98%;
+            margin: 0 1%;
+            border-radius: 18%;
+        }
+        .course-heading-text .course-heading {
+            font-size: 20px;
+        }
+        .course-quote p {
+            line-height: 30px;
+        }
+        #course-button #bottom-button {
+            left: 24%;
+        }
+        }
+
+
 
 
 
