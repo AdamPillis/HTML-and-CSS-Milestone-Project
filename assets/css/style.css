@@ -414,12 +414,11 @@ footer {
     margin-top: 150px;
 }
 .course-area {
-    height: 700px;
+    height: 750px;
     width: 100%;
-    margin-top: 8%;
 }
 .course-heading-text {
-    height: 500px;
+    height: 600px;
     width: 50%;
     float: left;
 }
@@ -431,41 +430,38 @@ footer {
     text-align: center;
 }
 .course-p {
-    font-size: 16px;
+    font-size: 100%;
     letter-spacing: 1px;
-    line-height: 40px;
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-right: 5px;
+    line-height: 50px;
+    padding: 10px;
     text-align: center;
 }
+.course-image-container {
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+.course-image {
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 8%;
+    position: relative;
+    left: 34px;
+    top: 50px;
+}
 .course-quote {
-    height: 100px;
+    height: 150px;
     width: 100%;
     clear: both;
 }
 .course-quote p {
     height: 100%;
     width: 100%;
-    font-size: 100%;
+    font-size: 120%;
+    line-height: 50px;
     text-align: center;
     color: #595E5E;
-    padding-top: 5px;
-    line-height: 30px;
-}
-
-.course-image-container {
-    height: 500px;
-    width: 50%;
-    float: right;
-}
-
-.course-image {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 8%;
-    margin-top: 20px;
 }
 
 /* Special layout for every second course */
@@ -476,18 +472,6 @@ footer {
 
 .doonbeg-waterville-image {
     float: right;
-}
-#doonbeg-quote {
-    margin-top: 15px;
-}
-#ballybunion-quote {
-    height: 150px;
-}
-
-#waterville-quote {
-    height: 100px;
-    margin-top: 80px;
-    padding: 0;
 }
 
 /* Button at the bottom of course.html */
