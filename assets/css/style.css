@@ -47,11 +47,11 @@ h3 {
 }
 
 .button {
-    border: 2px solid #d4af47;
-    background-color: #595E5E;
+    border: 2px solid #595E5E;
+    background-color: #d4af47;
     border-radius: 10px;
     
-    color: #d4af47;
+    color: #595E5E;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: 3px;
@@ -63,7 +63,7 @@ h3 {
 }
 
 .button:hover {
-    background-color: #d4af47;
+    background-color: #595E5E;
     color: white;
 }
 
@@ -198,7 +198,7 @@ header {
 }
 
 #image-button:hover {
-    background-color: #d4af47;
+    background-color: #595E5E;
     color: white;
 }
 
@@ -300,20 +300,13 @@ header {
 #about-area {
     height: 370px;
     width: 100%;
-    overflow: hidden;
     margin-bottom: 30px;
-}
-
-.about-image {
-    height: 370px;
-    width: 100%;
 }
 
 .about-boxes {
     width: 100%;
     height: 370px;
-    position: absolute;
-    top: 1920px;
+    display: inline-block;
 }
 
 #about-area .about-boxes .about-box {
@@ -325,6 +318,7 @@ header {
     box-sizing: border-box;
     border: 2px solid white;
     background: transparent;
+    background-color:rgba(20, 92, 2, 0.774)
 }
 
 #about-area .about-boxes .about-box h3 {
@@ -601,6 +595,9 @@ label {
     h1 {
         font-size: 250%;
     }
+    #main-image {
+        margin-top: 120px;
+    }
     #wild-header h2 {
         padding-right: 50px;
     }
@@ -625,9 +622,6 @@ label {
     }
     .wild-video-box, .wild-text-box{
         margin-bottom: 0;
-    }
-    .about-boxes {
-        top: 1890px;
     }
     #about-area .about-boxes .about-box p {
         font-size: 16px;
@@ -665,8 +659,8 @@ label {
         height: 100px;
     }
     .course-quote p {
-        font-size: 90%;
-        line-height: 40px;
+        font-size: 130%;
+        line-height: 30px;
     }
     .footer-icons li {
           margin-right: 150px;
@@ -736,9 +730,11 @@ label {
         
         #about-area {
             height: 300px;
+            width: 100%;
         }
         .about-boxes {
-            top: 2070px;
+            height: 300px;
+            width: 100%;
         }
         #about-area .about-boxes .about-box {
             height: 300px;
@@ -787,7 +783,7 @@ label {
             margin-bottom: 50px;
         }
         .course-quote p {
-            font-size: 18px;
+            font-size: 22px;
             padding: 8px;
         }
         #course-button #bottom-button {
@@ -836,7 +832,6 @@ label {
         }
         #reasons-heading {
             font-size: 180%;
-            border-bottom: -15px;
         }
         .reasons-box {
             height: 100%;
@@ -860,6 +855,10 @@ label {
             margin: 0 10% 5% 10%;
             padding-left: 30px;
             border-radius: 10%;
+        }
+        #wild-box {
+            width: 100%;
+            height: 100%;
         }
         #wild-header {
             height: 50px;
@@ -895,21 +894,13 @@ label {
             bottom: 50px;
         }
         #about-area {
-            height: 250px;
+            height: 100%;
             width: 100%;
-            position: relative;
+            display: block;
         }
         .about-boxes {
-            height: 250px;
+            height: 300px;
             width: 100%;
-            position: absolute;
-            
-        }
-        .about-box {
-            bottom: 0;
-            top: 0;
-            left: 0;
-            right: 0;
         }
         .signup-area #form-box {
             left: 30%;
@@ -931,6 +922,10 @@ label {
         }
         .course-quote p {
             font-size: 14px;
+        }
+        footer {
+            width: 100%;
+            height: 100%;
         }
         .footer-icons li {
             margin-right: 70px;
@@ -1020,13 +1015,5 @@ label {
         }
         /* form.html @400px */
         .signup-area #form-box {
-            left: 10%;
-        }
-        }
-
-
-
-
-
-
-
+            left: 10%; }
+        }}
