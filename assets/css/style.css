@@ -20,7 +20,7 @@ h1 {
     font-family: Raleway, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #d4af47;
+    color: #f7bf25;
     text-align: center;
     padding: 5px;
     
@@ -444,7 +444,7 @@ footer {
 .course-p {
     font-size: 16px;
     letter-spacing: 1px;
-    line-height: 35px;
+    line-height: 30px;
     padding-left: 10px;
     padding-top: 20px;
     padding-right: 5px;
@@ -454,7 +454,7 @@ footer {
 .course-quote {
     height: 150px;
     width: 100%;
-    font-size: 25px;
+    font-size: 100%;
     text-align: center;
     color: #595E5E;
     padding-top: 15px;
@@ -485,11 +485,11 @@ footer {
     float: right;
 }
 #doonbeg-quote {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 #ballybunion-quote {
     height: 120px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #waterville-quote {
@@ -521,15 +521,15 @@ footer {
 }
 
 #form-image {
-    width: 100%;
     height: 100vh;
+    width: 100%;
     margin-bottom: -45px;
 }
 
 #form-image img {
-    width: 100%;
     height: 100%;
     overflow: hidden;
+    width: 100%;
 }
 
 #form-box {
@@ -615,6 +615,8 @@ label {
 #form-footer-icons {
     padding-left: 9%;
 }
+
+/* Media Queries */
 
 
 
