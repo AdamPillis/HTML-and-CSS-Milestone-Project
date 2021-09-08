@@ -935,6 +935,12 @@ label {
         header {
             padding-right: 15px;
         }
+        #nav-area li a {
+            font-size: 70%;
+        }
+        #nav-area ul {
+            padding-right: 10px;
+        }
         #main-image-area {
             height: 300px;
             
