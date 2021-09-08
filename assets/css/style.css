@@ -173,7 +173,7 @@ header {
     position: absolute;
 
     top: 40%;
-    left: 65%;
+    left: 55%;
 
     padding-top: 15px;
 }
@@ -485,7 +485,6 @@ footer {
 #course-button a {
     position: relative;
     left: 45%;
-    top: 150%;
     padding: 10px;
 }
 
@@ -595,7 +594,8 @@ label {
 /* Media Queries */
 
 /* For screen size 1200px wide and smaller */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px)
+    /* index.html */ {
     h1 {
         font-size: 250%;
     }
@@ -603,22 +603,71 @@ label {
         padding-right: 50px;
     }
     #image-text {
-        left: 55%;
+        left: 50%;
     }
     .reasons-box ul {
         font-size: 90%;
+        line-height: 50px;
     }
     .aerial-view {
         margin-top: 15px;
     }
     #wild-header {
-        font-size: 90%;
+        font-size: 80%;
     }
     .wild-text-box .wild-text {
         padding-right: 10px;
         padding-left: 10px;
         line-height: 50px;
+        font-size: 95%;
     }
+    .wild-video-box, .wild-text-box{
+        margin-bottom: 0;
+    }
+    .about-boxes {
+        top: 1890px;
+    }
+    #about-area .about-boxes .about-box p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    #about-area #inspire-button, #about-area #joinus-button {
+        left: 26%;
+
+    }
+    /* course.html */
+    .course-area {
+        height: 600px;
+        margin-top: 20px;
+    }
+    .course-heading-text {
+        height: 470px;
+    }
+    .course-p {
+        font-size: 70%;
+        line-height: 40px;
+    }
+    .course-image-container {
+        height: 470px;
+        margin: 15px auto;
+    }
+    .course-image-container .course-image {
+        height: 450px;
+        width: 100%;
+        position: unset;
+        margin-left: 15px;
+        margin-top: 25px;
+        padding-top: 20px;
+    }
+    .course-quote {
+        margin: 10px auto;
+        height: 100px;
+    }
+    .course-quote p {
+        font-size: 90%;
+        line-height: 40px;
+    }
+
 }
 
 
