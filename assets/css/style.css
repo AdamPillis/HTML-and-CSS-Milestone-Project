@@ -45,6 +45,9 @@ h3 {
     text-align: center;
     padding: 3px 0;
 }
+strong {
+    font-weight: 900;
+}
 
 .button {
     border: 2px solid white;
@@ -106,6 +109,7 @@ header {
     height: 30px;
     width: 100%;
     clear: both;
+    background-color: rgba(218, 223, 225, 1)
 }
 
 #menu li {
@@ -166,7 +170,7 @@ header {
     height: 300px;
     width: 450px;
 
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgba(63, 62, 62, 0.7);
 
     position: absolute;
 
@@ -184,16 +188,16 @@ header {
     font-weight: 800;
     line-height: 40px;
     padding: 5px 2px;
+    margin-bottom: 15px;
 }
 
 /* Button and link within image */
 
-#image-button {
-    position: absolute;
-    left: 28%;
-    
-    width: 200px;
+#image-button {  
+    width: 50%;
+    margin: auto 23%;
     height: 50px;
+    padding: 2%;
 }
 
 #image-button:hover {
@@ -210,7 +214,8 @@ header {
 
 #reasons-heading {
     text-align: left;
-    padding-left: 50px;
+    padding-left: 2%;
+    width: 50%;
     color: #008504;
 }
 
@@ -223,10 +228,12 @@ header {
 
 .reasons-box ul {
     text-transform: capitalize;
-    padding-left: 70px;
     font-size: 100%;
     letter-spacing: 2px;
     line-height: 60px;
+}
+.reasons-box ul li {
+    margin-left: 50px;
 }
 
 /* Images beside reasons */
@@ -333,9 +340,9 @@ header {
 
 #about-area .about-boxes .about-box p {
     font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #about-area .about-boxes .about-box hr {
@@ -344,26 +351,12 @@ header {
 
 /* Buttons styling */
 
-#about-area #inspire-button {
-    padding: 8px;
-    width: 110%;
-    height: 110%;
-
-    position: relative;
-    left: 35%;
-    top: 8%;
+.about-box #inspire-button, .about-box #joinus-button   {
+    width: 120%;
+    height: 70px;
+    margin: 15px 33%;
+    padding: 2%;
 }
-
-#about-area #joinus-button {
-    padding: 8px;
-    width: 110%;
-    height: 110%;
-
-    position: relative;
-    left: 35%;
-    top: 12%;
-}
-
 
 /* Footer */
 
@@ -453,7 +446,7 @@ footer {
 }
 .course-image-container p {
     position: relative;
-    top: 50px;
+    top: 70px;
     text-align: center;
     color: #595E5E;
     font-weight: 100;
@@ -466,8 +459,7 @@ footer {
 .course-quote p {
     height: 100%;
     width: 100%;
-    font-size: 120%;
-    line-height: 50px;
+    font-size: 100%;
     text-align: center;
     color: #008504;
     font-weight: 900;
@@ -500,7 +492,7 @@ footer {
 /* Form.html structure */
 
 #form-image {
-    height: 100vh;
+    height: 96vh;
     width: 100%;
     margin-bottom: -45px;
     overflow: hidden;
@@ -514,41 +506,47 @@ footer {
     max-height: 100%;
 }
 #form-box {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 
     background-color: rgba(19, 17, 17, 0.8);
     border: 1px solid white;
     border-radius: 8px;
 
     position: absolute;
-    bottom: 20%;
-    left: 38%;
+    bottom: 8%;
+    left: 10%;
 }
 
 #form-heading {
-    font-size: 160%;
+    font-size: 140%;
     color: white;
     text-align: center;
-    margin-top: 0;
-    padding: 15px 5px 65px 5px;
+    line-height: 120%;
+    padding: 2%;
+    margin-bottom: 50px;
+}
+#form-box .form-hr {
+    height: 35px;
+    visibility: hidden;
 }
 
 label {
     color: white;
-    margin-left: 10%;
+    width: 70%;
+    margin: 0 15%;
 }
 
 .text-input {
     background: transparent;
     color: white;
+    font-size: 16px;
     border: 1px solid white;
     border-radius: 8px;
-    height: 25px;
-    margin: 5px 0 15px 38px;
-    padding-left: 6px;
+    height: 40px;
+    margin: 0 15%;
     display: block;
-    width: 80%;
+    width: 70%;
 }
 ::placeholder {
     color: rgb(255, 255, 255, 0.6);
@@ -561,24 +559,24 @@ label {
     background-color: transparent;
 
     position: absolute;
-    top: 80%;
+    top: 85%;
     text-align: center;
 }
 #signup-button{
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     border: 1px solid white;
     border-radius: 8px;
-    left: 40px;
+    left: 75px;
 }
 
 #cancel-button {
-    left: 216px;
+    left: 280px;
 }
 #cancel-button a{
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     position: absolute;
     left: 0;
     border: 1px solid white;
@@ -645,19 +643,29 @@ label {
     }
     /* course.html */
     .course-area {
-        height: 600px;
+        height: 700px;
         margin-top: 20px;
     }
     .course-heading-text {
-        height: 470px;
+        height: 550px;
     }
     .course-p {
         font-size: 70%;
         line-height: 40px;
     }
     .course-image-container {
-        height: 470px;
+        height: 550px;
         margin: 15px auto;
+    }
+    .course-image-container p {
+            font-size: 80%;
+            letter-spacing: 1px;
+            line-height: 20px;
+            padding: 5px;
+            text-align: center;
+            top: 0;
+            bottom: 50px;
+        }
     }
     .course-image-container .course-image {
         height: 450px;
@@ -669,11 +677,12 @@ label {
     }
     .course-quote {
         margin: 10px auto;
-        height: 100px;
+        height: 120px;
     }
     .course-quote p {
-        font-size: 130%;
-        line-height: 30px;
+        font-size: 100%;
+        line-height: 40px;
+        padding: 5px;
     }
     .footer-icons li {
           margin-right: 150px;
@@ -681,7 +690,7 @@ label {
     .signup-area #form-box {
         left: 35%;
     }
-}
+
 /* For screen size 950px wide and smaller */
 @media screen and (max-width: 950px)
     /* index.html */ {
@@ -930,16 +939,9 @@ label {
             top: 16%;
             left: 38%;
         }
-        footer {
-            position: absolute;
-            height: 50px;
-            width: 100%;
-            top: 3350px;
-        }
         .signup-area #form-box {
             left: 30%;
         }
-
         /* medie queries for course.html @800px and below */
         .course-text .course-p {
             font-size: 70%;
@@ -977,10 +979,6 @@ label {
         }
         #cancel-button {
             left: 165px;
-        }
-        #form-footer {
-            position: unset;
-            height: 100%;
         }
         /* For screen size 400px wide and smaller */
 @media screen and (max-width: 400px)
