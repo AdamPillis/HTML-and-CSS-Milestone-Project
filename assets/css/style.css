@@ -257,13 +257,15 @@ header {
     width: 100%;
     margin-top: 0;
 }
-
 #wild-header h2 {
     text-align: right;
-    padding-right: 60px;
 }
-#wild-header a {
+
+#wild-header h2 a {
+    padding-right: 60px;
     text-decoration: none;
+    color: #459ce4;
+    
 }
 .wild-text-box {
     width: 50%;
@@ -603,7 +605,7 @@ label {
     #main-image {
         margin-top: 120px;
     }
-    #wild-header h2 {
+    #wild-header h2 a {
         padding-right: 50px;
     }
     #image-text {
@@ -616,8 +618,8 @@ label {
     .aerial-view {
         margin-top: 15px;
     }
-    #wild-header {
-        font-size: 80%;
+    #wild-header h2 {
+        font-size: 220%;
     }
     .wild-text-box .wild-text {
         padding-right: 10px;
@@ -984,7 +986,7 @@ label {
             padding-right: 15px;
         }
         #nav-area li a {
-            font-size: 70%;
+            font-size: 60%;
         }
         #nav-area ul {
             padding-right: 10px;
@@ -1009,7 +1011,9 @@ label {
             display: none;
         }
         #reasons #reasons-heading {
-            padding-left: 8px;
+            padding-left: 12px;
+            font-size: 140%;
+            text-align: center
         }
         .reasons-box li {
             line-height: 30px;
@@ -1018,8 +1022,24 @@ label {
         .images-box .aerial-view {
             padding: 0;
         }
+        #wild-header h2 {
+            font-size: 120%;
+        }
+        .wild-text-box .wild-text {
+            line-height: 30px;
+        }
+        .wild-video-box {
+            margin-top: 100px;
+            height: 30%;
+            margin-bottom: 0;
+        }
+        .wild-video-box iframe {
+            height: 50%;
+            width: 80%;
+            margin: 0 10%;
+        }
         #about-area .about-boxes .about-box h3 {
-            font-size: 20px;
+            font-size: 16px;
         }
         #about-area .about-boxes .about-box p {
             line-height: 20px;
