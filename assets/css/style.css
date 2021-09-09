@@ -262,7 +262,9 @@ header {
     text-align: right;
     padding-right: 60px;
 }
-
+#wild-header a {
+    text-decoration: none;
+}
 .wild-text-box {
     width: 50%;
     height: 500px;
