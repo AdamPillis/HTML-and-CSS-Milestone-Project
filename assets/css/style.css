@@ -47,11 +47,11 @@ h3 {
 }
 
 .button {
-    border: 2px solid #595E5E;
-    background-color: #d4af47;
+    border: 2px solid white;
+    background-color: #008504;
     border-radius: 10px;
     
-    color: #595E5E;
+    color: white;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: 3px;
@@ -318,7 +318,7 @@ header {
     box-sizing: border-box;
     border: 2px solid white;
     background: transparent;
-    background-color:rgba(20, 92, 2, 0.774)
+    background-color: rgba(0, 133, 4, 0.8)
 }
 
 #about-area .about-boxes .about-box h3 {
