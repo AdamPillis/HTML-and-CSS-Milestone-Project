@@ -406,6 +406,11 @@ footer {
 
 /* Layout for every course */
 
+.course-hr {
+    width: 80%;
+    margin: 0 10%;
+    color: rgba(218, 223, 225, 0.4);
+}
 #course-section {
     height: 100%;
     width: 100%;
@@ -414,6 +419,7 @@ footer {
 .course-area {
     height: 750px;
     width: 100%;
+    margin-top: 30px;
 }
 .course-heading-text {
     height: 600px;
@@ -441,12 +447,19 @@ footer {
 }
 .course-image {
     width: 90%;
-    height: 90%;
+    height: 80%;
     padding: 20px;
     border-radius: 8%;
     position: relative;
     left: 34px;
     top: 50px;
+}
+.course-image-container p {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: #595E5E;
+    font-weight: 100;
 }
 .course-quote {
     height: 150px;
@@ -459,7 +472,8 @@ footer {
     font-size: 120%;
     line-height: 50px;
     text-align: center;
-    color: #595E5E;
+    color: #008504;
+    font-weight: 900;
 }
 
 /* Special layout for every second course */
