@@ -518,7 +518,7 @@ footer {
     border-radius: 8px;
 
     position: absolute;
-    bottom: 8%;
+    bottom: 15%;
     left: 10%;
 }
 #form-heading {
@@ -695,28 +695,6 @@ label {
     .footer-icons li {
           margin-right: 150px;
     }
-    .signup-area #form-box {
-        height: 400px;
-        width: 400px;
-        left: 35%;
-    }
-    #form-heading {
-        font-size: 100%;
-        line-height: 30px;
-        margin-bottom: 15px;
-    }
-    #form-box .form-hr {
-        height: 25px;
-    }
-    .text-input {
-        height: 30px;
-    }
-    #signup-button {
-        left: 52px;
-    }
-    #cancel-button {
-        left: 205px;
-    }
 
 /* For screen size 950px wide and smaller */
 @media screen and (max-width: 950px)
@@ -842,9 +820,6 @@ label {
         }
         #course-button #bottom-button {
             font-size: 12px;  
-        }
-        .signup-area #form-box {
-            left: 30%;
         }
     }
 /* For screen size 800px wide and smaller */
@@ -977,7 +952,8 @@ label {
             left: 38%;
         }
         .signup-area #form-box {
-            left: 30%;
+                bottom: 15%;
+                left: 10%;
         }
         /* medie queries for course.html @800px and below */
         .course-text .course-p {

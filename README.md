@@ -41,7 +41,7 @@ user.
 
 #### *Header - Navigation Menu*
 The **header** consists of the site's name and an "inspiring quote" to enhance the mood and inspire new visitors. There is a logo
-to the left hand side with colours to match the overall theme of the website for better user visuality.
+to the left hand side with colours to match the overall theme of the website for better user visuality. From a personal point of view, website header are normally linked with home page, especially if they're fixed so for this reason, another feature of the heading is that if a user clicks on the heading as 'normal', it will direct them back to the top of the home page.
 
 The **navigation menu** onsists of four main elements that the user can *choose* from if they would prefer to go straight to their "interest area".
 The header is in a fixed position and it is displayed on all of the three pages in different styles suggesting that this feature follows the user at all times in order for them to have full control of their visit while maintaining consistency. 
