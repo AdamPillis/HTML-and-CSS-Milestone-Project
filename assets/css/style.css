@@ -405,6 +405,7 @@ footer {
     height: 100%;
     width: 100%;
     margin-top: 150px;
+    margin-bottom: 30px;
 }
 .course-area {
     height: 750px;
@@ -479,14 +480,16 @@ footer {
 
 #course-button {
     width: 100%;
-    height: 40px;
-    margin: 50px 0;
+    height: 50px;
+    margin-bottom: 70px;
 }
 
-#course-button a {
-    position: relative;
-    left: 45%;
-    padding: 10px;
+#course-button #bottom-button {
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    margin: auto 40%;
+    padding: 5px;  
 }
 
 /* Form.html structure */
@@ -805,7 +808,6 @@ label {
         .course-image-container .course-image {
             border-radius: 10%;
             margin: 0px;
-
         }
         .course-quote {
             height: 100%;
@@ -815,8 +817,12 @@ label {
             font-size: 22px;
             padding: 8px;
         }
+        #course-button {
+            width: 100%;
+            height: 100%;
+        }
         #course-button #bottom-button {
-            left: 38%;
+            font-size: 12px;  
         }
         .signup-area #form-box {
             left: 30%;
@@ -971,6 +977,16 @@ label {
         .course-quote p {
             font-size: 14px;
         }
+        #course-button {
+            width: 100%;
+            height: 100%;
+        }
+        #course-button #bottom-button {
+            font-size: 10px;
+            position: relative;
+            margin: 0;
+            left: 40%;
+        }
         .footer-icons li {
             margin-right: 70px;
         }
@@ -1017,7 +1033,6 @@ label {
         #nav-area li a {
             font-size: 60%;
             padding-right: 4px;
-
         }
         #menu li {
             padding-bottom: 0;
@@ -1027,14 +1042,12 @@ label {
 
         }
         #main-image-area {
-            height: 300px;
-            
+            height: 300px; 
         }
         #main-image {
             height: 200px;
             width: 100%;
-            margin-bottom: 150px;
-            
+            margin-bottom: 150px; 
         }
         #main-image img {
             height: 200px;
@@ -1059,7 +1072,6 @@ label {
             line-height: 25px;
             font-size: 80%;
             margin-left: 20px;
-            
         }
         .images-box .aerial-view {
             padding: 0;
@@ -1117,7 +1129,7 @@ label {
             line-height: 30px;
         }
         #course-button #bottom-button {
-            left: 24%;
+            left: 30%;
         }
         }
         .footer-icons li {
