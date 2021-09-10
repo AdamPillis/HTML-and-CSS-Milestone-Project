@@ -26,6 +26,10 @@ The target audience is **world-wide**. There are over *65 million* golfers aroun
 number. Most of these will more than likely have families so by providing information about *staying and dining* only increases 
 the original target audience.
 
+**New User**: The idea behind this website is to attract local and international golfers to the West Coast of Ireland. For first time users, the reason why they would land on this page is find out information regarding golf courses along the Wild Atlantic Way. Therefore, on the landing page, they would find key regarding the area and its accessibility. However, the main informative page is the course.html given that it provides images and a description of each course and this is why buttons linked to course.html are located all over the landing page. It is optional for each new user to sign up by entering their email address if they wish to return as exisiting users.
+
+**Existing User**: There are over 40 links golf courses on the Western Region so the developer's future plan is to extend the site by adding more pages and four *new golf courses* to the *course.html* every month. By signing up, the new user will be notified after updates have taken place and they can return to the site with a matter of a click to check out the updates.
+
 SCREENSHOT OF AM I RESPONSIVE
 
 ## 2. **Features (exisiting)**
@@ -36,20 +40,24 @@ user.
 ### 1. **Home Page**
 
 #### *Header - Navigation Menu*
-Consists of four main elements that the user can *choose* from if they would prefer to go straight to their "interest area".
-The header is in a fixed position and it is displayed on all of the three pages in different styles suggesting that this feature follows the user at all times in order for them to have full control of their visit. 
+The **header** consists of the site's name and an "inspiring quote" to enhance the mood and inspire new visitors. There is a logo
+to the left hand side with colours to match the overall theme of the website for better user visuality.
 
-SCREENSHOT HEADER
+The **navigation menu** onsists of four main elements that the user can *choose* from if they would prefer to go straight to their "interest area".
+The header is in a fixed position and it is displayed on all of the three pages in different styles suggesting that this feature follows the user at all times in order for them to have full control of their visit while maintaining consistency. 
+
+![Screenshot of header and navigation menu](assets/images/screenshot-header.JPG "Screenshot of header and navigation menu")
 
 #### *Main Image Area*
-Large image right under the header to catch any visitor's eyes at the very start. 
+Large image right under the header to catch any visitor's eyes at the very start. This image was chosen because it demonstrates
+what a golf course looks like along the Wild Atlantic and from a user perspective, it would catch any enthusiast golfer's eyes. 
 
 It features a **"zoom-scale"** element to make it stand out visually for the first 5 seconds.
 
 The *text area* within the image describes the whole *concept* of the website in a couple of lines and what kind of information it has got to offer. The text is specially written to **address the user**. In terms of feature, it comes with a **button** if the user wants to jump straight onto the informative web-page which provides information and images about the golf courses. This is done to maintain user interaction but at the same
 time, the whole concept behind the website is to show off the golf courses.
 
-SCREENSHOT OF IMAGE 
+![Screenshot of main image and text box](assets/images/screenshot-main-image.PNG "Screenshot of main image and text box")
 
 #### *Reason's Section*
 
