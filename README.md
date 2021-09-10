@@ -30,7 +30,28 @@ the original target audience.
 
 **Existing User**: There are over 40 links golf courses on the Western Region so the developer's future plan is to extend the site by adding more pages and four *new golf courses* to the *course.html* every month. By signing up, the new user will be notified after updates have taken place and they can return to the site with a matter of a click to check out the updates.
 
-SCREENSHOT OF AM I RESPONSIVE
+![Introduction Image of Landing Page](assets/images/screenshot-intro-pic.png "Introduction Image of Landing Page")
+
+### **Planning**
+
+In terms of planning, the developer used **Balsamiq** to create the overall framework for each of the three pages. 
+
+**1. index.html plan**
+![Planning layout of index.html](assets/images/screenshot-index.html-planning.PNG "Planning layout of index.html")
+
+**1. course.html plan**
+![Planning layout of course.html](assets/images/screenshot-course.html-planning.PNG "Planning layout of course.html")
+
+**3. form.html plan**
+![Planning layout of form.html](assets/images/screenshot-form.html-planning.PNG "Planning layout of form.html")
+
+In terms of planning for smaller screen, he had the following idea:
+
+**smaller screen-size plan**
+![Planning layout of form.html](assets/images/screenshot-planning-small-screens.jpg "Planning layout of form.html")
+
+**medium screen-size plan**
+![Planning layout of form.html](assets/images/screenshot-planning-medium-screens.jpg "Planning layout of form.html")
 
 ## 2. **Features (exisiting)**
 
@@ -89,6 +110,8 @@ was included for better convincing.
 
 **Wild Header**
 Features a link which means that if a user decides they want to know more about the Wild Atlantic Way, they can click on the heading which will take them to its official website in a *new tab*.
+
+![Wild Atlantic Section](assets/images/screenshot-wild-box.PNG "Wild Atlantic Section")
 
 #### **About Area Section**
 
@@ -389,8 +412,26 @@ For this website, the [Am I Responsive](http://ami.responsivedesign.is/#) was us
 
 #### **Other ways of testing responsiveness**
 
-A household member of the developer was asked to view the website on their mobile and see if any problems arose. 
+A household member of the developer was asked to view the website on their mobile and see if any problems arose from a **user's perspective**. She identified small bugs such as the **About Us** nav internal link did not work at all. The font size was also small for the screen but other than that, she confirmed it looks well and information is also well organised and colour theme is good.
 
+### **Fixed Bugs**
+
+1. When linking the "YouTube video" into the Wild Section, the video did not show as expected. Over time, he realised that the video link must include **embed** instead of **watch** and once the changes were made within the iframe, the external link worked and the video was embeded into the section. 
+
+![Youtube video bug](assets/images/screenshot-video-bug.png "Youtube video bug")
+
+![Youtube video code](assets/images/screenshot-video-code.PNG "Youtube video code")
+
+### **Unfixed Bugs**
+
+Given the fact that this was the very first website created and designed by the developer, there are a couple of things he should have done different to enhance responsiveness. He used absolute positioning throughout the website which he realised was not the 
+best practice as it causes further bugs when creating **media quieries** and may also cause elements not to be aligned according to screen size. He focused on his screen rather than thinking overall. He has managed to fix a few of them as a result such as the course information button. 
+
+However, the 'About Us buttons in the index.html and the footer icons have not been aligned in the middle for smaller screens and given the fact that he realised coming to the end of the project, each fix has become time consuming in terms of changes so it may take some time for him to make these changes and he has learned the lesson of staying away from absolute positioning unless it is absolutley necessary.
+
+At medium sized screens, the **Sign up form** in form.html also changed to the smaller size form section rather than staying at original size and as a result, it looks smaller than it should. Again, he didn't consider responsiveness in the early stages and did not make sure that elements reacted to smaller screens as they should. When trying to solve this issue, it caused further problems which made the visual look worse than the original.   
+
+Overall, no other unsolved issues recognised during testing. 
 
 ## 4. Deployment
 
@@ -417,6 +458,8 @@ The steps he needed to take to deploy this project to the public are:
 9. Update the page and the **live url** will be available and green when the site is public. 
 
 ![Deployment stage of project](assets/images/screenshot-deployment.PNG "Deployment stage of project")
+
+The live link to this project after deployment is [GitHub link to Wild Atlantic Golf](https://adampillis.github.io/Wild-Atlantic-Golf-Guide/)
 
 ## 5. Credits
 
