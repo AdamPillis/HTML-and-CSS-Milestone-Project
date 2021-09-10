@@ -376,6 +376,8 @@ Every interactive link and video is checked for each page and marked complete be
 
 * **Clear Button** - Reloads the page and clears input areas. 
 
+![Form-box testing](assets/images/screenshot-testing-form.png "Form-box testing")
+
 * **Footer (external links)**
 
 Footer is **fixed** and **identical** to other two pages
@@ -463,7 +465,16 @@ The live link to this project after deployment is [GitHub link to Wild Atlantic 
 
 ## 5. Credits
 
+### **Content**
 
+### **Media**
+
+1. **index.html**
+video images
+2. **course.html**
+images
+3. **form.html**
+image
 
 
 
