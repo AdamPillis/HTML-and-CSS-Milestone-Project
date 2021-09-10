@@ -173,6 +173,102 @@ There is a **clear** button also added along with submit incase the user wants t
 
 ## 3. Testing and Bugs Fixed/Unfixed
 
+### **Validator Testing**
+
+The Wild Atlantic Golf website has gone through validation at the end of the project.
+
+Each page has been validated within the website using the **Deployed** version and **Page source code**
+
+#### **Index.html validation**
+
+One warning has risen as seen. However, the #main-image-section only consists of a large as a background image and a short paragraph within the text box area. As a result, there was no need to put a heading within the section and its part of the home page so it does not need to be identified.
+
+![W3 validator for index.html](assets/images/screenshot-w3validator-index.html.png "W3 validator for index.html")
+
+#### **Course.html validation**
+
+No errors or warnings for this web-page. 
+
+![W3 validator for course.html](assets/images/screenshot-w3validator-course.html.png "W3 validator for course.html")
+
+#### **Form.html validation**
+
+No errors or warnings for this web-page. 
+
+![W3 validator for form.html](assets/images/screenshot-w3validator-form.html.png "W3 validator for form.html")
+
+#### **Jigsaw-CSS validator**
+
+The CSS source code was copied from the updated *GitHub repository* of this project and pasted through the validator. 
+
+No issues were found. 
+
+![Jigsaw CSS Validator](assets/images/screenshot-jigsaw-css.png "Jigsaw CSS Validator")
+
+### **Devtools Lighthouse Testing**
+
+Using the deployed version, each page undertook the lighthouse test and a report was generated for each. 
+
+Fortunately, all pages scored high in all areas.
+
+#### **Index.html Lighthouse Report**
+
+
+![Devtools lighouse report for index.html](assets/images/screenshot-lighthouse-index.html.png "Devtools lighouse report for index.html")
+
+#### **Course.html Lighthouse Report**
+
+
+![Devtools lighouse report for course.html](assets/images/screenshot-lighthouse-course.html.png "Devtools lighouse report for course.html")
+
+#### **Form.html Lighthouse Report**
+
+
+![Devtools lighouse report for form.html](assets/images/screenshot-lighthouse-form.html.png "Devtools lighouse report for form.html")
+
+### **Other types of testing**
+
+To ensure that colour contrast scores high, **WebAIM Contrast Checker** was used to enhance the process of chosing approriate theme colours for headings, paragraphs and others text against their background
+
+ [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/ "Colour contrast checker").
+
+### **Search Engine Testing**
+
+The website has been tested on three search engines in total. Internet Explorer has been left out given that it is no longer considered as a popular browser and it is coming to the end of its overall functual expectancy. 
+
+1. **Google Chrome (default)**
+
+2. **Mozilla Firefox**
+
+Each web-page was tested through *Mozilla Firefox* and no issues detected.
+
+**index.html**
+
+![index.html on Mozilla Firefox](assets/images/screenshot-firefox-index.html.png "index.html on Mozilla Firefox")
+
+**course.html**
+
+![course.html on Mozilla Firefox](assets/images/screenshot-firefox-course.html.png "course.html on Mozilla Firefox")
+
+**form.html**
+
+![form.html on Mozilla Firefox](assets/images/screenshot-firefox-form.html.png "form.html on Mozilla Firefox")
+
+3. **Microsoft Edge**
+
+Each web-page was tested through *Microsoft Edge* and no issues detected.
+
+**index.html**
+
+![index.html on Microsoft Edge](assets/images/screenshot-edge-index.html.png "index.html on Microsoft Edge")
+
+**course.html**
+
+![course.html on Microsoft Edge](assets/images/screenshot-edge-course.html.png "course.html on Microsoft Edge")
+
+**form.html**
+
+![form.html on Microsoft Edge](assets/images/screenshot-edge-form.html.png "form.html on Microsoft Edge")
 
 
 ## 4. Deployment
