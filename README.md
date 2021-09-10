@@ -276,48 +276,120 @@ Every interactive link and video is checked for each page and marked complete be
 
 **1. index.html Features**
 
-* Heading link to home page - not set for home page as it is current. 
+* **Heading link** to home page - not set for home page as it is current. 
 
 * **Navigation Menu Bar and Links (internal)**
-     * Home (current) - Refreshes page so link test is complete.    
-     * Courses - Link opens course.html and working perfectly.
-     * About us - Link skips to #about-area and working perfectly.
-     * Sign Up - Link opens form.html and working perfectly.
+     * **Home** (current) - Refreshes page so link test is complete.    
+     * **Courses** - Link opens course.html and working perfectly.
+     * **About us** - Link skips to #about-area and working perfectly.
+     * **Sign Up** - Link opens form.html and working perfectly.
 
-* Course Information button - Link opens course.html and working perfectly.
+* **Course Information button** - Link opens course.html and working perfectly.
 
-* Wild Atlantic Way heading - External link works fine when opened (opens in a new tab).
+* **Wild Atlantic Way heading** - External link works fine when opened (opens in a new tab).
 
-* Wild Atlantic section video - By default, it is paused and user has full control over all setting when pressing play. Video link is work perfectly.
+* **Wild Atlantic section video** - By default, it is paused and user has full control over all setting when pressing play. Video link is work perfectly.
 
 * **About us buttons (internal)**
-     * Courses button - Link opens course.html and working perfectly.
-     * Sign Up button - Link opens form.html and working perfectly.
+
+     * **Courses button** - Link opens course.html and working perfectly.
+
+     * **Sign Up button** - Link opens form.html and working perfectly.
 
 * **Footer (external links)**
-     * Facebook Icon - External link opens Facebook's official website and working perfectly (opens in a new tab).
-     * Twitter Icon - External link opensTwitter's official website and working perfectly (opens in a new tab).
-     * Instagram Icon - External link opens Instagram's official website and working perfectly (opens in a new tab).
+     * **Facebook Icon** - External link opens Facebook's official website and working perfectly (opens in a new tab).
+
+     * **Twitter Icon** - External link opensTwitter's official website and working perfectly (opens in a new tab).
+
+     * **Instagram Icon** - External link opens Instagram's official website and working perfectly (opens in a new tab).
 
 **2. course.html Features**
 
-* Heading link - h1 and h2 internal link to index.html works perfectly. 
+* **Heading link** - h1 and h2 internal link to index.html works perfectly. 
 
 * **Navigation Menu Bar and Links (internal)**
-     * Home - Link goes to index.html and works perfectly.     
-     * Courses (current) - Refreshes page so link test is complete.
-     * About us - Link skips to #about-area and working perfectly.
-     * Sign Up - Link opens form.html and working perfectly.
+     * **Home** - Link goes to index.html and works perfectly.     
+     * **Courses** (current) - Refreshes page so link test is complete.
+     * **About us** - Link skips to #about-area and working perfectly.
+     * **Sign Up** - Link opens form.html and working perfectly.
 
-* Lahinch Image - External link to clubs website works perfectly (opens in a new tab).
-* Doonbeg Image - External link to clubs website works perfectly (opens in a new tab).
-* Ballybunion Image - External link to clubs website works perfectly (opens in a new tab).
-* Waterville Image - External link to clubs website works perfectly (opens in a new tab).
+* **Lahinch Image** - External link to Lahinch golf clubs website works perfectly (opens in a new tab).
 
-* Back to the Top Button - Internal link back to the top of the page works perfectly.
+* **Doonbeg Image** - External link to Trump Doonbeg golf clubs website works perfectly (opens in a new tab).
+
+* **Ballybunion Image** - External link to Ballybunion golf clubs website works perfectly (opens in a new tab).
+
+* **Waterville Image** - External link to Waterville golf clubs website works perfectly (opens in a new tab).
+
+* **Back to the Top Button** - Internal link back to the top of the page works perfectly.
+
+* **Footer (external links)**
+
+* **Facebook Icon** - External link opens Facebook's official website and working perfectly (opens in a new tab).
+
+* **Twitter Icon** - External link opensTwitter's official website and working perfectly (opens in a new tab).
+
+* **Instagram Icon** - External link opens Instagram's official website and working perfectly (opens in a new tab).
 
 **3. form.html Features**
 
+* **Heading link** - h1 and h2 internal link to index.html works perfectly. 
+
+* **Navigation Menu Bar and Links (internal)**
+     * **Home** - Link opens index.html and working perfectly.    
+     * **Courses** - Link opens course.html and working perfectly.
+     * **About us** - Link goes to index.html#about-area and so working perfectly.
+     * **Sign Up (current)** - Refreshes page so link test is complete. 
+
+* **Form box**
+
+* **Full name input** - Cannot skip unless something is entered.
+
+* **Email Address** - Cannot skip unless email including **@** is entered. 
+
+* **Confirm Email** - Cannot skip unless email including **@** is entered. (this input cannot verify if it matches the above input but this is due to the limitation of the project - HTML, CSS).
+
+* **Sign Up Button** - External submit link opens page but no function due to limitations, only a message. 
+
+* **Clear Button** - Reloads the page and clears input areas. 
+
+* **Footer (external links)**
+
+Footer is **fixed** and **identical** to other two pages
+
+* **Facebook Icon** - External link opens Facebook's official website and working perfectly (opens in a new tab).
+
+* **Twitter Icon** - External link opensTwitter's official website and working perfectly (opens in a new tab).
+
+* **Instagram Icon** - External link opens Instagram's official website and working perfectly (opens in a new tab).
+
+### **Screen Responsive Testing**
+
+For this website, the [Am I Responsive](http://ami.responsivedesign.is/#) was used to test what happens at different screen sizes.
+
+#### **index.html**
+1.
+![Screenshot of index.html on different screens](assets/images/screenshot-respnsive-index.html.png "Screenshot of index.html on different screens")
+
+2.
+![Screenshot of index.html on different screens](assets/images/screenshot-respnsive-index.html-two.png "Screenshot of index.html on different screens")
+
+#### **course.html**
+1.
+
+![Screenshot of course.html on different screens](assets/images/screenshot-respnsive-course.html.png "Screenshot of course.html on different screens")
+
+2.
+
+![Screenshot of course.html on different screens](assets/images/screenshot-respnsive-course.html-two.png "Screenshot of course.html on different screens")
+
+#### **form.html**
+
+![Screenshot of form.html on different screens](assets/images/screenshot-respnsive-form.html.png "Screenshot of form.html on different screens")
+
+#### **Other ways of testing responsiveness**
+
+A household member of the developer was asked to view the website on their mobile and see if any problems arose. 
 
 
 ## 4. Deployment
