@@ -725,9 +725,13 @@ label {
             font-size: 160%;
         }
         .reasons-box ul {
+            line-height: 30px;
+        }
+        .reasons-box ul li {
             font-size: 80%;
-            line-height: 50px;
-            padding-left: 40px;
+            line-height: 40px;
+            padding-left: 20px;
+            padding-right: 5px;
         }
         #wild-box {
             height: 780px;
