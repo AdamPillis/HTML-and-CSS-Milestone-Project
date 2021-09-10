@@ -518,7 +518,7 @@ footer {
     border-radius: 8px;
 
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 10%;
 }
 #form-heading {
@@ -952,7 +952,7 @@ label {
             left: 38%;
         }
         .signup-area #form-box {
-                bottom: 15%;
+                bottom: 8%;
                 left: 10%;
         }
         /* medie queries for course.html @800px and below */
