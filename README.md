@@ -469,27 +469,130 @@ The live link to this project after deployment is [GitHub link to Wild Atlantic 
 
 ### **Content**
 
+**W3Schools website** was used to help and get a deeper understanding of certain html and css elements.
+
+An example is **Fix positioning header and footer** [Link to help guide](https://www.w3schools.com/cssref/pr_pos_z-index.asp)
+
+Website = [https://www.w3schools.com/](https://www.w3schools.com/)
+
+**Stack Overflow** was used for the same reason as above. 
+
+Website = [https://stackoverflow.com/](https://stackoverflow.com/)
+
+An example is **How to align floating elements?** [Link to help guide](https://stackoverflow.com/questions/11005954/why-do-the-float-elements-not-align-side-by-side-when-using-widths/11006299)
+
+**Developer Mozilla's** website was used to discover how the **"placeholder"** attribute can be styled.
+
+**Link** to placeholder guide [https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
+
+The **Love Running Project** gave the inspiration to add a *text box to the main image in index.html* and *the form text box in form.html*.
+
 1. **index.html**
 
- Used the [Love Running](https://adampillis.github.io/Love-Running/) project to scale the *main image* from 1.1 to 1.0.
+ * Used the [Love Running](https://adampillis.github.io/Love-Running/) project to scale the *main image* from 1.1 to 1.0.
 
  **Code** is : 
 
  ![Love running zoom in code](assets/images/screenshot-zoom-credit.PNG "Love running zoom in code")
 }
 
+* Used **The wild Atlantic Way's** official website to source the information for *Wild Atlantic Section* in index.html.
+
+For the link click on [www.wildatlanticway.com](https://www.thewildatlanticway.com/)
+
 2. **course.html**
+
+Some of the course information text was taken from:
+
+**Golf Breaks** - [Click here for link to source](https://www.golfbreaks.com/en-gb/inspiration/articles/best-golf-courses-in-south-west-ireland/)
+
+**Your Golf Travel** website was used as source for the quotes used in course.html.
+
+[Click here for link to source](https://www.yourgolftravel.com/19th-hole/golf-in-ireland-quotes-from-illustrious-visitors-throughout-the-years/)
 
 3. **form.html**
 
 ### **Media**
 
+**All** icons were imported from **Font Awesome**'s official website.
+
+This includes all icons on all of the web pages as well as for the *footer*.
+
+Click on the link for the website [www.fontawesome.com](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+
 1. **index.html**
-video images
+
+* **Header Logo**
+
+**Source Website** = [https://www.vecteezy.com/free-vector/design](https://www.vecteezy.com/free-vector/design)
+
+**Image Source** = [Link to header logo](https://static.vecteezy.com/system/resources/thumbnails/000/579/695/small/sarmi05072019-02.jpg)
+
+* **Main Image**
+
+The image was saved through Google Images for this project.
+
+**Image Owner** and **Source Website** = [http://www.carnegolflinks.com](http://www.carnegolflinks.com)
+
+* **Reason's Image One (sand dunes)**
+
+The image was saved through Google Images for this project.
+
+**Image Owner** and **Source Website** = [https://www.world-of-leading-golf.com](https://www.world-of-leading-golf.com)
+
+* **Reason's Image Two (aerial view)**
+
+The image was saved through Google Images for this project.
+
+**Image Owner** = Lahinch Golf Club
+
+**Source Website** = [https://lahinchgolf.com/course/course-flyovers/](https://lahinchgolf.com/course/course-flyovers/)
+
+* **Wild Atlantic Way Youtube Video**
+
+**Video Owner** = Tourism Ireland
+
+**Source Website** = YouTube
+
+[Click here for link to video](https://www.youtube.com/watch?v=8vroxOJaKu4)
+
 2. **course.html**
-images
+
+The header and footer sources are the same as index.html (fixed position).
+
+* **Lahinch Section Image**
+
+**Photo Owner** = Lahinch Golf Club
+
+**Source website** = [https://lahinchgolf.com](https://lahinchgolf.com)
+
+* **Doonbeg Section Image**
+
+**Photo Owner** = Haversham & Baker Golfing Expeditions
+
+Source Website = [https://www.haversham.com](https://www.haversham.com/golf-at-its-finest/golf-ireland/golf-courses-ireland/doonbeg-golf-links/)
+
+* **Ballybunion Section Image**
+
+**Photo Owner** = Evan Schiller
+
+**Source Website** = [www.flickr.com](https://www.flickr.com/photos/135361730@N07/38361020856)
+
+* **Waterville Section Image**
+
+**Photo Owner** = Waterville Golf Club
+
+**Source Website** = [http://www.watervillegolflinks.ie](http://www.watervillegolflinks.ie/course-layout)
+
 3. **form.html**
-image
+
+The header and footer sources are the same as index.html (fixed position).
+
+* **Main Background Image**
+
+Photo Owner = Gotta Be Worth It account on the website
+
+Link Source Website = [www.pexels.com](https://www.pexels.com/photo/photo-of-golf-course-919335/)
 
 
 
