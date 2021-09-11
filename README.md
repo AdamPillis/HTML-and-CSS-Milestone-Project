@@ -412,6 +412,8 @@ For this website, the [Am I Responsive](http://ami.responsivedesign.is/#) was us
 
 ![Screenshot of form.html on different screens](assets/images/screenshot-respnsive-form.html.png "Screenshot of form.html on different screens")
 
+* For the mobile version, the main heading is smaller because the text below has a **bigger** meaning behind it from a user perpective but left bigger for other screen sizes. 
+
 #### **Other ways of testing responsiveness**
 
 A household member of the developer was asked to view the website on their mobile and see if any problems arose from a **user's perspective**. She identified small bugs such as the **About Us** nav internal link did not work at all. The font size was also small for the screen but other than that, she confirmed it looks well and information is also well organised and colour theme is good.
@@ -466,6 +468,19 @@ The live link to this project after deployment is [GitHub link to Wild Atlantic 
 ## 5. Credits
 
 ### **Content**
+
+1. **index.html**
+
+ Used the [Love Running](https://adampillis.github.io/Love-Running/) project to scale the *main image* from 1.1 to 1.0.
+
+ **Code** is : 
+
+ ![Love running zoom in code](assets/images/screenshot-zoom-credit.PNG "Love running zoom in code")
+}
+
+2. **course.html**
+
+3. **form.html**
 
 ### **Media**
 

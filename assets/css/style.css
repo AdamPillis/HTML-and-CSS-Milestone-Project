@@ -152,7 +152,8 @@ header {
     height: 100%;
     width: 100%;
     margin-top: 150px;
-/* zoom in style for main image */
+    
+/* zoom in style for main image - code taken from Love Running project */
     animation-name: main-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -989,6 +990,10 @@ label {
         .footer-icons li {
             margin-right: 70px;
         }
+        /* media queries for submit.html @800px */
+        .submit-small-screen {
+            font-size: 14px;
+        }
         /* media queries for form.html @800px */
         
         /* For screen size 400px wide and smaller */
@@ -1155,5 +1160,10 @@ label {
         }
         #cancel-button {
             left: 130px;
+        }
+        /* Submit screen at 400px */
+
+        .submit-small-screen {
+            font-size: 14px;
         }
         }
