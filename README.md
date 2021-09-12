@@ -460,7 +460,7 @@ However, the 'About Us buttons in the index.html and the footer icons have not b
 
 At medium sized screens, the **Sign up form** in form.html also changed to the smaller size form section rather than staying at original size and as a result, it looks smaller than it should. Again, he didn't consider responsiveness in the early stages and did not make sure that elements reacted to smaller screens as they should. When trying to solve this issue, it caused further problems which made the visual look worse than the original.   
 
-Another bug identified during testing is that the *About Us* button within the **Navigation Menu** does not 
+Another bug identified during testing is that the *About Us* button within the **Navigation Menu** does not go  directly to the about section under 800px which he may not be able to fix at the moment and he is aware and the internal link does work and directs to the middle of index.html. 
 
 ## 4. Deployment
 
