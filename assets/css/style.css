@@ -1013,7 +1013,7 @@ label {
         }
         #nav-area ul {
             height: 30px;
-
+            margin-right: 0px;
         }
         #main-image-area {
             height: 300px; 
